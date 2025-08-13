@@ -5,20 +5,20 @@
 class EmailCli < Formula
   desc "A beautiful and functional email client for your terminal."
   homepage "https://github.com/andrinoff/email-cli"
-  version "0.7.2"
+  version "0.7.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrinoff/email-cli/releases/download/v0.7.2/email-cli_0.7.2_darwin_amd64.tar.gz"
-      sha256 "9d5db87d45863a20236997f5372db826d2145d700fa4be2c50e013b5ba3e2a10"
+      url "https://github.com/andrinoff/email-cli/releases/download/v0.7.3/email-cli_0.7.3_darwin_amd64.tar.gz"
+      sha256 "02927af275467fba076bd519fccedfb0c0c77570655fbc19095a9e356723cde8"
 
       def install
         bin.install "email-cli"
       end
     end
     on_arm do
-      url "https://github.com/andrinoff/email-cli/releases/download/v0.7.2/email-cli_0.7.2_darwin_arm64.tar.gz"
-      sha256 "0e8174601bea3560e1081aad031b739d678c95527668964433cf616f327eb2d4"
+      url "https://github.com/andrinoff/email-cli/releases/download/v0.7.3/email-cli_0.7.3_darwin_arm64.tar.gz"
+      sha256 "53ac1a1e800b736ff6d6b06ea907575239b95f478b837f30a34d529815c2cd38"
 
       def install
         bin.install "email-cli"
@@ -29,8 +29,8 @@ class EmailCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/andrinoff/email-cli/releases/download/v0.7.2/email-cli_0.7.2_linux_amd64.tar.gz"
-        sha256 "3938bd8d2695f2f37f5085d18fc39158cfd6ce29f4396705fca4b37d9aea8f57"
+        url "https://github.com/andrinoff/email-cli/releases/download/v0.7.3/email-cli_0.7.3_linux_amd64.tar.gz"
+        sha256 "6d2a263a8f1175de956d6ef4262c70797192c82c17dcc537e8f98fdf92a13233"
 
         def install
           bin.install "email-cli"
@@ -39,8 +39,8 @@ class EmailCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/andrinoff/email-cli/releases/download/v0.7.2/email-cli_0.7.2_linux_arm64.tar.gz"
-        sha256 "cdca7c2de4ca3fbb5fa3039287ba677ce6d1024e3e80298bbb43d2407beb9ef0"
+        url "https://github.com/andrinoff/email-cli/releases/download/v0.7.3/email-cli_0.7.3_linux_arm64.tar.gz"
+        sha256 "1b703116f5dc8fcf7704f36dd77e4494357eadb57e91e8972142e37d7161f14c"
 
         def install
           bin.install "email-cli"
